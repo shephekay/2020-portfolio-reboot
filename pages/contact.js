@@ -1,4 +1,4 @@
-import { makeStyles } from "@material-ui/core/styles";import React from 'react'
+import { makeStyles } from "@mui/material/styles";import React from 'react'
 import Card from '../components/Card/Card'
 import CardBody from '../components/Card/CardBody'
 import imagesStyles from "assets/jss/nextjs-material-kit-pro/imagesStyles.js";

@@ -4,10 +4,10 @@
 // import ButtonBase from '@mui/material/ButtonBase';
 import Button from '@mui/material/Button';
 
-import Header from './Header/Header.js'
-import HeaderLinks from './Header/HeaderLinks.js'
-import { makeStyles } from "@mui/material//styles";
-import NavPills from './NavPills/NavPills.js'
+import Header from './Header.js'
+import HeaderLinks from './HeaderLinks.js'
+import { makeStyles } from "@mui/material/styles";
+// import NavPills from './NavPills.js'
 import React from 'react'
 import { List, ListItem } from "@mui/material";
 import Link from '@mui/material/Link'

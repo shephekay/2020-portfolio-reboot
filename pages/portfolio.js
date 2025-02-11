@@ -4,7 +4,7 @@ import Card from '../components/Card/Card'
 import CardBody from '../components/Card/CardBody'
 import imagesStyles from "assets/jss/nextjs-material-kit-pro/imagesStyles.js";
 import Button from "components/CustomButtons/Button.js";
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@mui/material/styles";
 import { cardTitle } from "assets/jss/nextjs-material-kit-pro.js";
 import MyFooter from '../components/CustomFooter'
 

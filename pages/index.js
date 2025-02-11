@@ -1,19 +1,19 @@
 import React from 'react';
-import Card from 'components/Card/Card';
-import fetch from 'isomorphic-unfetch';
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
+import Card from '../components/Card';
+// import fetch from 'isomorphic-unfetch';
+// @mui/material/ components
+import { makeStyles } from "@mui/material/styles";
 // @material-ui icons
 // core components
-import CardBody from "components/Card/CardBody.js";
-import Button from "components/CustomButtons/Button.js";
-import AccountCircle from "@material-ui/icons/AccountCircle"
+import CardBody from "../components/CardBody.js";
+import Button from "../components/Button.js";
+import AccountCircle from "@mui/icons-material/AccountCircle"
 import NavBar from '../components/NavBar'
 import MyFooter from '../components/CustomFooter'
-import Parallax from "components/Parallax/Parallax.js"
-import imagesStyles from "assets/jss/nextjs-material-kit-pro/imagesStyles.js";
+import Parallax from "../components/Parallax.js"
+import imagesStyles from "../assets/jss/imagesStyles.js";
 
-import { cardTitle } from "assets/jss/nextjs-material-kit-pro.js";
+import { cardTitle } from "../assets/jss/nextjs-material-kit-pro.js";
 
 
 
@@ -29,7 +29,7 @@ export default function Index (props) {
     return (
         <div>
           <NavBar/>
-          <Parallax image={require("../assets/img/bg.jpg")} >
+          {/* <Parallax image={require("../assets/img/bg.jpg")} > */}
             
           <Card style={{background: 'rgba(255, 255, 255, 0)', boxShadow: 'none'}}>
             <CardBody>
@@ -84,7 +84,7 @@ export default function Index (props) {
 
             </div>
           </Card>
-          </Parallax>
+          {/* </Parallax> */}
           <MyFooter></MyFooter>
         </div>
     )
